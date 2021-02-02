@@ -42,6 +42,10 @@ public class Main extends JFrame {
                
            }
         });
+        panelBotones.add(añadir);
+        panelBotones.add(eliminar);
+        contentPanel.add(panelBotones , BorderLayout.SOUTH);
+        
         pack();
         this.setVisible(true);
         
